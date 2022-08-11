@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using System.Text;
 using SQLite;
+
 namespace Notes.Models
 {
     internal class Note
