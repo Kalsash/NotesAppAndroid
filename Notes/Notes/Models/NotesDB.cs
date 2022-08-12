@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 
 namespace Notes.Models
 {
-    internal class NotesDB
+    public class NotesDB
     {
         readonly SQLiteAsyncConnection db;
         public NotesDB(string connectionString)
